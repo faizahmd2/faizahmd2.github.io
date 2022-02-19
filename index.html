@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js"></script>
+    <title>Simple Cache</title>
+</head>
+<body>
+    <nav>
+        <div class="left_link_items">
+            <div class="link_item" id="home_item" onclick="navbarTap(1)">
+                Home
+            </div>
+            <div class="link_item" id="dashboard_item" onclick="navbarTap(2)">
+                Dashboard
+            </div>
+            <div class="link_item" id="about_item" onclick="navbarTap(3)">
+                About
+            </div>
+        </div>
+        <div class="right_link_items">
+            <div class="search_input">
+                <input type="text" name="search" value="" placeholder="Search..." autocomplete="off">
+            </div>
+            <div class="search_btn">
+                <button>Search</button>
+            </div>
+        </div>
+    </nav>
+    <div id="root"></div>
+</body>
+</html>

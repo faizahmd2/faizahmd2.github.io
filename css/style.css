@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Index CSS */
+nav{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: wrap;
+    background-color: rgb(131, 173, 221);
+    margin: 0px 10px;
+    padding: 5px 16px;
+    border-radius: 3px;
+}
+
+.left_link_items{
+    display: flex;
+    justify-content: flex-start;
+    font-weight: bold;
+    color: rgb(32, 4, 4);
+    font-family: 'sans-serif';
+}
+
+.left_link_items div, .right_link_items div{
+    align-self: center;
+    margin-right: 10px;
+}
+
+.right_link_items{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.search_input,.search_btn{
+    margin: 0;
+    padding: 0;
+}
+
+.search_input input{
+    width: 40vw;
+    border-radius: 4px;
+    border-color: rgb(180, 174, 174);
+    outline: none;
+    padding: 8px;
+}
+
+.search_btn button{
+    background-color: rgb(13 179 54);
+    color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+.link_item{
+    cursor: pointer;
+    font-family: sans-serif;
+    color: rgb(19, 14, 14);
+}
+
+.link_item:hover{
+    color: rgb(235, 235, 35);
+}
+
+.home_container h1, .dashboard_container h1, .about_container h1{
+    text-align: center;
+}
+
+.home_container p, .dashboard_container p, .about_container p{
+    margin: 10px 40px;
+}
+
+/* Home CSS */
+
+
+/* Dashboard CSS */
+
+
+
+/* About CSS */
