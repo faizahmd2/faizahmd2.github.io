@@ -54,7 +54,7 @@ const myAboutPage = () => {
 };
 
 if ("serviceWorker" in navigator) {
-  console.log("Supported", navigator);
+  // console.log("Supported", navigator);
   window.addEventListener("load", () => {
     navigator.serviceWorker
       .register("../sw_cached_site.js")
